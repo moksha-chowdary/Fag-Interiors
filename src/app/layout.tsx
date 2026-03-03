@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className="font-body antialiased bg-background text-foreground">
 
   <div className="w-full bg-amber-100 text-center text-sm py-2 text-gray-800">
-    This is a demo website concept created for presentation purposes.
+    This is a demo website concept created for presentation purposes by Moksha.
   </div>
 
   {children}
