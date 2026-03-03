@@ -5,46 +5,46 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 0 0% 10%;
+    --foreground: 20 10% 10%;
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card-foreground: 20 10% 10%;
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
-    --primary: 250 95% 60%;
-    --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 10%;
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 45%;
-    --accent: 0 0% 96%;
-    --accent-foreground: 250 95% 60%;
+    --popover-foreground: 20 10% 10%;
+    --primary: 43 51% 57%; /* Refined Gold #C6A75E */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 20% 97%;
+    --secondary-foreground: 20 10% 10%;
+    --muted: 30 10% 96%;
+    --muted-foreground: 20 10% 45%;
+    --accent: 43 51% 95%;
+    --accent-foreground: 43 51% 57%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 89.8%;
-    --input: 0 0% 89.8%;
-    --ring: 250 95% 60%;
-    --radius: 0.75rem;
+    --border: 30 10% 90%;
+    --input: 30 10% 90%;
+    --ring: 43 51% 57%;
+    --radius: 0.5rem;
   }
   .dark {
-    --background: 0 0% 3.9%;
+    --background: 20 10% 3.9%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
+    --card: 20 10% 3.9%;
     --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
+    --popover: 20 10% 3.9%;
     --popover-foreground: 0 0% 98%;
-    --primary: 250 95% 60%;
+    --primary: 43 51% 57%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 0 0% 14.9%;
+    --secondary: 20 10% 14.9%;
     --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 14.9%;
+    --muted: 20 10% 14.9%;
     --muted-foreground: 0 0% 63.9%;
-    --accent: 0 0% 14.9%;
+    --accent: 20 10% 14.9%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 0 0% 14.9%;
-    --input: 0 0% 14.9%;
-    --ring: 250 95% 60%;
+    --border: 20 10% 14.9%;
+    --input: 20 10% 14.9%;
+    --ring: 43 51% 57%;
   }
 }
 
@@ -53,17 +53,31 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground scroll-smooth;
+    @apply bg-background text-foreground antialiased scroll-smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
 
 .reveal-on-scroll {
   opacity: 0;
   transform: translateY(20px);
-  transition: all 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .reveal-on-scroll.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
