@@ -3,37 +3,37 @@
     {
       "id": "hero-bg",
       "description": "Luxury Indian living room with warm marble flooring, wood paneling, and a grand chandelier",
-      "imageUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBpbmRpYW4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc3MjU0Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1920&auto=format&fit=crop",
       "imageHint": "indian luxury-interior"
     },
     {
       "id": "project-1",
       "description": "Modern high-end kitchen with warm wood finishes and marble countertops",
-      "imageUrl": "https://images.unsplash.com/photo-1600585154526-990dcea4db0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc3MjU0Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern kitchen"
+      "imageUrl": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1080&auto=format&fit=crop",
+      "imageHint": "luxury kitchen"
     },
     {
       "id": "project-2",
       "description": "Grand master bedroom with warm lighting and rich textures",
-      "imageUrl": "https://images.unsplash.com/photo-1616594197247-b69566719296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiZWRyb29tfGVufDB8fHx8MTc3MjU0NzA5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616594197247-b69566719296?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "luxury bedroom"
     },
     {
       "id": "project-3",
       "description": "Sophisticated home office with architectural wood paneling",
-      "imageUrl": "https://images.unsplash.com/photo-1617806118233-f8e187f42894?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBvZmZpY2V8ZW58MHx8fHwxNzcyNTQ3MTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "architectural office"
     },
     {
       "id": "project-4",
       "description": "Elegant dining space with warm amber lighting and statement furniture",
-      "imageUrl": "https://images.unsplash.com/photo-1616137466211-f939a420be84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBkaW5pbmclMjByb29tfGVufDB8fHx8MTc3MjU0NzE0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616137466211-f939a420be84?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "indian dining"
     },
     {
       "id": "about-image",
       "description": "Interior designer discussing material samples in a high-end showroom",
-      "imageUrl": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpbnRlcmlvciUyMGRlc2lnbmVyJTIwd29ya2luZ3xlbnswfHx8fDE3NzI1NDcxODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1080&auto=format&fit=crop",
       "imageHint": "designer working"
     }
   ]
