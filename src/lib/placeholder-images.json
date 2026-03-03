@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Minimalist workspace with laptop and coffee",
+      "imageUrl": "https://images.unsplash.com/photo-1636745741175-03d59e7bd5e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaW5pbWFsaXN0JTIwd29ya3NwYWNlfGVufDB8fHx8MTc3MjQ2MDM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist workspace"
+    },
+    {
+      "id": "project-1",
+      "description": "Modern architecture photography",
+      "imageUrl": "https://images.unsplash.com/photo-1519662978799-2f05096d3636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzcyNDg5MTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "project-2",
+      "description": "Clean digital interface design",
+      "imageUrl": "https://images.unsplash.com/photo-1602064172250-43f8909056c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnRlcmZhY2UlMjBkZXNpZ258ZW58MHx8fHwxNzcyNTQwODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interface design"
+    },
+    {
+      "id": "project-3",
+      "description": "Nature and technology blend",
+      "imageUrl": "https://images.unsplash.com/photo-1652141668690-2bdf88d9f2d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuYXR1cmUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc3MjU0MDgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nature technology"
+    },
+    {
+      "id": "project-4",
+      "description": "Abstract geometric patterns",
+      "imageUrl": "https://images.unsplash.com/photo-1635972064135-8ec7711f9895?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGdlb21ldHJ5fGVufDB8fHx8MTc3MjUzNTI0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract geometry"
+    },
+    {
+      "id": "about-image",
+      "description": "Portrait of a creative professional",
+      "imageUrl": "https://images.unsplash.com/photo-1758876019673-704b039d405c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JlYXRpdmUlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzcyNDU1OTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative professional"
+    }
+  ]
 }
