@@ -2,8 +2,8 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'My Online Presence | Modern Creative Showcase',
-  description: 'A clean, modern online presence for creative professionals and small businesses.',
+  title: 'Presence Interiors | Curated Living Spaces',
+  description: 'Bespoke interior design services for residential and commercial spaces. Elevating your environment through timeless design.',
 };
 
 export default function RootLayout({

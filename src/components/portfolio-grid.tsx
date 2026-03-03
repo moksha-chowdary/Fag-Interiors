@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -8,10 +7,10 @@ export function PortfolioGrid() {
   const projects = PlaceHolderImages.filter(img => img.id.startsWith("project-"));
 
   const projectDetails = [
-    { category: "Web Design", title: "Minimalist Studio" },
-    { category: "Branding", title: "Future Forward" },
-    { category: "App Development", title: "Health Tracker" },
-    { category: "Photography", title: "Urban Spaces" },
+    { category: "Kitchen Design", title: "Bright Nordic Sanctuary" },
+    { category: "Residential", title: "Minimalist City Loft" },
+    { category: "Workspace", title: "Industrial Creative Lab" },
+    { category: "Living Spaces", title: "Mid-Century Revitalized" },
   ];
 
   return (

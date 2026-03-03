@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -10,7 +9,7 @@ import { Button } from "@/components/ui/button";
 const NAV_LINKS = [
   { name: "Home", href: "#" },
   { name: "About", href: "#about" },
-  { name: "Work", href: "#work" },
+  { name: "Portfolio", href: "#work" },
   { name: "Services", href: "#services" },
   { name: "Contact", href: "#contact" },
 ];
@@ -39,7 +38,7 @@ export function Navbar() {
           href="/" 
           className="text-2xl font-bold tracking-tight text-foreground hover:opacity-80 transition-opacity"
         >
-          PRESENCE<span className="text-primary">.</span>
+          PRESENCE<span className="text-primary italic">.</span>INTERIORS
         </Link>
 
         {/* Desktop Navigation */}
@@ -54,7 +53,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button variant="default" className="rounded-full px-6">
-            Get Started
+            Book Consultation
           </Button>
         </div>
 
@@ -86,7 +85,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button variant="default" className="w-full max-w-xs rounded-full py-6 text-lg">
-            Get Started
+            Book Consultation
           </Button>
         </div>
       </div>

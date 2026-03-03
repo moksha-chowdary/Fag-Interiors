@@ -2,39 +2,39 @@
   "placeholderImages": [
     {
       "id": "hero-bg",
-      "description": "Minimalist workspace with laptop and coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1636745741175-03d59e7bd5e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtaW5pbWFsaXN0JTIwd29ya3NwYWNlfGVufDB8fHx8MTc3MjQ2MDM4NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "minimalist workspace"
+      "description": "Modern luxury living room with large windows and neutral tones",
+      "imageUrl": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsaXZpbmclMjByb29tfGVufDB8fHx8MTc3MjU0Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern living-room"
     },
     {
       "id": "project-1",
-      "description": "Modern architecture photography",
-      "imageUrl": "https://images.unsplash.com/photo-1519662978799-2f05096d3636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzcyNDg5MTc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "modern architecture"
+      "description": "Scandinavian style kitchen with light wood and marble",
+      "imageUrl": "https://images.unsplash.com/photo-1556911220-e15224bbafb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2FuZGluYXZpYW4lMjBraXRjaGVufGVufDB8fHx8MTc3MjU0Njk5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scandinavian kitchen"
     },
     {
       "id": "project-2",
-      "description": "Clean digital interface design",
-      "imageUrl": "https://images.unsplash.com/photo-1602064172250-43f8909056c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnRlcmZhY2UlMjBkZXNpZ258ZW58MHx8fHwxNzcyNTQwODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "interface design"
+      "description": "Minimalist bedroom with soft lighting",
+      "imageUrl": "https://images.unsplash.com/photo-1540518614846-7eded433c457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYmVkcm9vbXxlbnswfHx8fDE3NzI1NDcwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist bedroom"
     },
     {
       "id": "project-3",
-      "description": "Nature and technology blend",
-      "imageUrl": "https://images.unsplash.com/photo-1652141668690-2bdf88d9f2d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxuYXR1cmUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc3MjU0MDgxNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "nature technology"
+      "description": "Industrial style loft home office",
+      "imageUrl": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxpbmR1c3RyaWFsJTIwb2ZmaWNlfGVufDB8fHx8MTc3MjU0NzE0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "industrial office"
     },
     {
       "id": "project-4",
-      "description": "Abstract geometric patterns",
-      "imageUrl": "https://images.unsplash.com/photo-1635972064135-8ec7711f9895?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGdlb21ldHJ5fGVufDB8fHx8MTc3MjUzNTI0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract geometry"
+      "description": "Mid-century modern dining area",
+      "imageUrl": "https://images.unsplash.com/photo-1534349762230-e0cadf78f5db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaW5pbmclMjByb29tfGVufDB8fHx8MTc3MjU0NzE0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mid-century dining"
     },
     {
       "id": "about-image",
-      "description": "Portrait of a creative professional",
-      "imageUrl": "https://images.unsplash.com/photo-1758876019673-704b039d405c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3JlYXRpdmUlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzcyNDU1OTI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "creative professional"
+      "description": "Interior designer reviewing floor plans and material samples",
+      "imageUrl": "https://images.unsplash.com/photo-1581578731522-745a05ad9ad5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxpbnRlcmlvciUyMGRlc2lnbmVyJTIwd29ya2luZ3xlbnswfHx8fDE3NzI1NDcxODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interior designer"
     }
   ]
 }

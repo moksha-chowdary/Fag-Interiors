@@ -1,4 +1,3 @@
-
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { Section } from "@/components/section";
@@ -7,9 +6,9 @@ import { ContactForm } from "@/components/contact-form";
 import { Footer } from "@/components/footer";
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Monitor, Smartphone, Layout, Palette, Code, BarChart } from "lucide-react";
+import { Home, Lamp, Sofa, Ruler, Paintbrush, Building2 } from "lucide-react";
 
-export default function Home() {
+export default function HomePage() {
   const aboutImg = PlaceHolderImages.find(img => img.id === "about-image");
 
   return (
@@ -17,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       
-      <Section id="about" subtitle="About Us" title="We bring ideas to life through design and technology">
+      <Section id="about" subtitle="Our Vision" title="We transform houses into homes and spaces into experiences">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-[4/5] rounded-[40px] overflow-hidden shadow-xl">
             {aboutImg && (
@@ -30,42 +29,42 @@ export default function Home() {
               />
             )}
             <div className="absolute bottom-8 right-8 bg-white/90 backdrop-blur p-8 rounded-3xl shadow-lg max-w-xs hidden sm:block">
-              <p className="text-4xl font-bold text-primary mb-2">12+</p>
-              <p className="text-sm font-medium text-muted-foreground">Years of experience in digital innovation and creative strategy.</p>
+              <p className="text-4xl font-bold text-primary mb-2">150+</p>
+              <p className="text-sm font-medium text-muted-foreground">Bespoke interiors designed for families and businesses across the globe.</p>
             </div>
           </div>
           <div className="space-y-8">
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We started with a simple belief: great design is more than just aesthetics. 
-              It's about solving problems, creating connections, and building lasting impressions.
+              We believe that where you live shapes how you feel. Our approach to interior design 
+              is deeply personal, blending your lifestyle with our expertise in spatial harmony.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Today, we are a multidisciplinary team of designers, developers, and strategists 
-              working together to help brands navigate the digital landscape with confidence.
+              From historic renovations to modern minimalist lofts, our team handles every 
+              detail—from floor plans to the final selection of art and accessories.
             </p>
             <div className="grid grid-cols-2 gap-8 pt-6">
               <div>
-                <h4 className="font-bold text-lg mb-2">Strategy First</h4>
-                <p className="text-sm text-muted-foreground">Every pixel and line of code is backed by deep research.</p>
+                <h4 className="font-bold text-lg mb-2">Bespoke Craft</h4>
+                <p className="text-sm text-muted-foreground">Custom furniture and unique finishes tailored to your specific needs.</p>
               </div>
               <div>
-                <h4 className="font-bold text-lg mb-2">User Centric</h4>
-                <p className="text-sm text-muted-foreground">We design for humans, ensuring intuitive and delightful experiences.</p>
+                <h4 className="font-bold text-lg mb-2">Timeless Style</h4>
+                <p className="text-sm text-muted-foreground">Designs that transcend trends, focusing on quality and enduring elegance.</p>
               </div>
             </div>
           </div>
         </div>
       </Section>
 
-      <Section id="services" subtitle="What We Do" title="Comprehensive digital solutions for modern brands" dark>
+      <Section id="services" subtitle="Design Services" title="Curating environments for inspired living" dark>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
-            { icon: Layout, title: "Web Design", desc: "Creating visually stunning and highly functional websites." },
-            { icon: Code, title: "Development", desc: "Building robust, scalable applications with modern stacks." },
-            { icon: Smartphone, title: "App Design", desc: "Native and cross-platform mobile experiences that engage." },
-            { icon: Palette, title: "Branding", desc: "Defining your identity and telling your story to the world." },
-            { icon: BarChart, title: "Marketing", desc: "Data-driven strategies to grow your reach and revenue." },
-            { icon: Monitor, title: "UX Audit", desc: "Optimizing your existing products for better conversions." },
+            { icon: Home, title: "Residential", desc: "Full-service interior design for homes, apartments, and private estates." },
+            { icon: Building2, title: "Commercial", desc: "Elevating boutique offices, retail spaces, and hospitality venues." },
+            { icon: Ruler, title: "Space Planning", desc: "Optimizing layouts for functionality, flow, and maximum comfort." },
+            { icon: Sofa, title: "Furniture Curation", desc: "Sourcing and styling unique pieces that reflect your personality." },
+            { icon: Paintbrush, title: "Color & Finish", desc: "Curating palettes and materials that set the perfect mood." },
+            { icon: Lamp, title: "Lighting Design", desc: "Creating atmospheric lighting plans that highlight architectural beauty." },
           ].map((service, i) => (
             <div key={i} className="p-10 rounded-[32px] bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-300 group">
               <div className="w-14 h-14 bg-primary/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
@@ -80,29 +79,29 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section id="work" subtitle="Selected Work" title="A glimpse into some of our favorite projects">
+      <Section id="work" subtitle="Portfolio" title="A collection of curated sanctuaries">
         <PortfolioGrid />
       </Section>
 
-      <Section id="contact" subtitle="Get In Touch" title="Ready to start your next big project?">
+      <Section id="contact" subtitle="Start Your Project" title="Ready to transform your space?">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
           <div className="lg:col-span-2 space-y-8">
             <p className="text-xl text-muted-foreground leading-relaxed">
-              We're always looking for new challenges and interesting people to work with. 
-              Drop us a line and let's create something extraordinary together.
+              We're currently accepting new residential and commercial projects. 
+              Tell us about your space and let's begin the journey of creation.
             </p>
             <div className="space-y-6">
               <div>
-                <p className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Call Us</p>
-                <p className="text-2xl font-semibold">+1 (555) 000-1234</p>
+                <p className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Studio Line</p>
+                <p className="text-2xl font-semibold">+1 (555) 789-4321</p>
               </div>
               <div>
-                <p className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Email Us</p>
-                <p className="text-2xl font-semibold">hello@presence.studio</p>
+                <p className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Inquiries</p>
+                <p className="text-2xl font-semibold">design@presence.interiors</p>
               </div>
               <div>
-                <p className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Our Studio</p>
-                <p className="text-2xl font-semibold">123 Creative Lane,<br />Digital Valley, CA 94043</p>
+                <p className="text-sm font-bold text-primary uppercase tracking-widest mb-2">Visit Our Showroom</p>
+                <p className="text-2xl font-semibold">456 Artisan Way,<br />Design District, NY 10013</p>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
-
 import React from "react";
 import Link from "next/link";
-import { Twitter, Instagram, Linkedin, Github } from "lucide-react";
+import { Twitter, Instagram, Linkedin, Facebook } from "lucide-react";
 
 export function Footer() {
   return (
@@ -10,14 +9,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
             <Link href="/" className="text-3xl font-bold tracking-tight mb-6 block">
-              PRESENCE<span className="text-primary">.</span>
+              PRESENCE<span className="text-primary italic">.</span>INTERIORS
             </Link>
             <p className="text-muted-foreground max-w-sm mb-8">
-              A modern digital studio dedicated to pushing the boundaries 
-              of design and technology. Building experiences that matter.
+              A boutique interior design studio dedicated to creating 
+              sophisticated, functional, and soulful living environments.
             </p>
             <div className="flex space-x-4">
-              {[Twitter, Instagram, Linkedin, Github].map((Icon, i) => (
+              {[Twitter, Instagram, Linkedin, Facebook].map((Icon, i) => (
                 <Link 
                   key={i} 
                   href="#" 
@@ -30,29 +29,29 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="font-bold text-lg mb-6">Explore</h4>
+            <h4 className="font-bold text-lg mb-6">Services</h4>
             <ul className="space-y-4 text-muted-foreground">
-              <li><Link href="#" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Portfolio</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Services</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Careers</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Residential Design</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Commercial Interiors</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Project Management</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Custom Furnishings</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-bold text-lg mb-6">Support</h4>
+            <h4 className="font-bold text-lg mb-6">Company</h4>
             <ul className="space-y-4 text-muted-foreground">
-              <li><Link href="#" className="hover:text-white transition-colors">Help Center</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="#" className="hover:text-white transition-colors">Terms of Service</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Our Story</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Journal</Link></li>
+              <li><Link href="#" className="hover:text-white transition-colors">Press</Link></li>
               <li><Link href="#" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
-          <p>© 2024 Presence. All rights reserved.</p>
-          <p>Handcrafted with passion.</p>
+          <p>© 2024 Presence Interiors. All rights reserved.</p>
+          <p>Designing for a well-lived life.</p>
         </div>
       </div>
     </footer>
