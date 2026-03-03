@@ -19,8 +19,14 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased bg-background text-foreground">
-        {children}
-      </body>
+
+  <div className="w-full bg-amber-100 text-center text-sm py-2 text-gray-800">
+    This is a demo website concept created for presentation purposes.
+  </div>
+
+  {children}
+
+</body>
     </html>
   );
 }
